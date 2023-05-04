@@ -1,14 +1,149 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "_id": {
+    "$oid": "62d75a7a726cb635bfc809f3"
+  },
+  "queAnsList": [
+    {
+      "type": "options",
+      "title": "What plumbing service do you require?",
+      "id": "8a703808-16c7-4386-9449-642930faee1b",
+      "ans": {
+        "id": "cfb69650-5573-4b4a-af48-229cd65b5a76",
+        "label": "Repair service"
+      }
+    },
+    {
+      "type": "options",
+      "title": "Please choose the repair needed",
+      "id": "de55f919-2e79-4fc7-996c-2c7bd21180e2",
+      "ans": {
+        "id": "3a46717e-6038-40f8-9517-0df014775bb4",
+        "label": "Outdoor plumbing "
+      }
+    },
+    {
+      "type": "options",
+      "title": "What outdoor plumbing repair is needed?",
+      "id": "5cf2ab94-46c0-4dcb-93ba-44d63dade36d",
+      "ans": {
+        "id": "f6984fee-4b6d-4dbd-b2e9-0a80e1410114",
+        "label": "Other"
+      }
+    },
+    {
+      "type": "input",
+      "ans": [
+        {
+          "id": "1b556613-6c2a-4d7c-87ec-82a6663e4b71",
+          "label": "Please share job specifics here...",
+          "value": "Goid"
+        }
+      ]
+    },
+    {
+      "type": "options",
+      "title": "When did the problem first occur?",
+      "id": "228c7135-d17a-4f97-b3e6-3f940eef8eea",
+      "ans": {
+        "id": "00feb084-6d8e-49e7-907a-0292c75063c8",
+        "label": "A month ago"
+      }
+    },
+    {
+      "type": "image",
+      "ans": [
+        {
+          "id": "124deaec-d696-44be-a956-1cfec9fa6647",
+          "label": "Please upload an image",
+          "image": "https://fixlers.s3.amazonaws.com/services/1658280565021fIxLeR20.jpg-original",
+          "thumbnail": "https://fixlers.s3.amazonaws.com/services/1658280565021fIxLeR20.jpg-thumbnail"
+        }
+      ]
+    },
+    {
+      "type": "timing",
+      "ans": {
+        "projectPriorityType": "standard",
+        "standardTimeType": "Late Evening",
+        "preferredWeekDays": [],
+        "preferredDate": "",
+        "preferredTimeSlots": [
+          {
+            "from": "08:00 PM ",
+            "to": " 12:00 AM",
+            "title": "Late Evening"
+          }
+        ]
+      }
+    },
+    {
+      "type": "addMedia",
+      "title": "Have something to add?",
+      "notes": "",
+      "mediaList": []
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "totalPrice": 0,
+  "authorizePrice": 0,
+  "customMilestonePrice": 0,
+  "status": "paid",
+  "preferableTimeFromTechnician": [],
+  "rejectTechnician": [],
+  "tracking": "available",
+  "milestone": false,
+  "withOutCard": false,
+  "freeEstimate": false,
+  "paid": false,
+  "addPriceFromTechnician": 0,
+  "beforeImage": [],
+  "afterImage": [],
+  "timeTracker": [],
+  "notShowInApp": false,
+  "user": {
+    "$oid": "62558f225277fd79ec909a9d"
+  },
+  "service": {
+    "$oid": "61df5e94e09aa976a1e8353c"
+  },
+  "servicePrice": 0,
+  "adminProfit": 25,
+  "jobId": "FJN5635",
+  "visitPrice": [],
+  "createdAt": {
+    "$date": "2022-07-20T01:29:30.868Z"
+  },
+  "updatedAt": {
+    "$date": "2022-07-20T01:29:34.751Z"
+  },
+  "__v": 0,
+  "tax": 8.375,
+  "address": {
+    "$oid": "628be65d1fa7cf104a64b70b"
+  },
+  "card": {
+    "$oid": "625594775277fd79ec909b37"
+  },
+  "createdFrom": "app",
+  "hourlyCharge": {
+    "pricePerHour": {
+      "regularHours": {
+        "firstHour": null,
+        "additionalHours": {
+          "type": "$",
+          "price": null
+        }
+      },
+      "afterHours": {
+        "firstHour": null,
+        "additionalHours": {
+          "type": "$",
+          "price": null
+        }
+      }
+    },
+    "estimatedHours": 0,
+    "customHours": 2,
+    "firstHour": 0
+  },
+  "jobType": "hourly"
 }
