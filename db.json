@@ -1,120 +1,63 @@
 {
-	"posts": [{
-			"id": 1,
-			"title": "Post 1"
-		},
-		{
-			"id": 2,
-			"title": "Post 2"
-		},
-		{
-			"id": 3,
-			"title": "Post 3"
-		},
-		{
-			"id": 5,
-			"title": "Post Cinco"
-		}
-	],
-	"comments": [{
-			"id": 1,
-			"body": "some comment",
-			"postId": 1
-		},
-		{
-			"id": 2,
-			"body": "some comment",
-			"postId": 1
-		}
-	],
-	"profile": {
-		"name": "typicode"
-	},
-	"carts": [{
-		"id": "ffhfjksafhnvxz1231fdsasd3",
-		"attributes": {
-			"archivedServiceObjects": [{
-				"id": "ffdhfj35gg21zxfz1231fdsasd3",
-				"also": {}
-			}],
-			"cartServices": [{
-				"id": "f2fgjasdsggawgzxfz1231fdsasd3",
-				"serviceId": "f2f45u7f67sagawgzxfz1231fdsasd3",
-				"answers": [],
-				"costDetail": {
-					"hourlyRegularHoursPricing": {
-						"regularHours": {
-							"firstHourValue": 4.0,
-							"additionalHoursValue": 23.8,
-							"additionalHoursType": "dollar"
-						}
-					},
-					"regularEstimatedHours": 4.0,
-					"extendedCost": 23.8
-				}
-			}],
-			"pricingSummary": {},
-			"preferredTiming": {}
-		},
-		"relationships": {
-			"belongsToConsumer": []
-		},
-		"properties": {}
-	}],
-	"services": [{
-		"id": "custom-plumbing-job-hourly",
-		"category": [{
-			"id": {
-				"$oid": "63fbce632e74b721f7424b87"
-			},
-			"categoryName": "Misc",
-			"description": "Misc. plumbing work",
-			"ancestor": [{
-					"name": "Services",
-					"path": "/services"
-				},
-				{
-					"name": "Plumbing",
-					"path": "/services/plumbing"
-				}
-			],
-			"slug": "plumbing-misc",
-			"path": "services/plumbing/plumbing-misc"
-		}],
-		"description": "Custom Hourly Plumbing Job with Free Estimate.",
-		"quantity": {
-			"prompt": null,
-			"minimum": 1,
-			"maximum": 1
-		},
-		"pricing": {
-			"hourly": {
-				"regularHours": {
-					"firstHourValue": 100.00,
-					"additionalHoursValue": 45.00,
-					"additionalHoursType": "dollar"
-				},
-				"afterHours": {
-					"firstHourValue": 200.00,
-					"additionalHoursValue": 50,
-					"additionalHoursType": "percentage"
-				},
-				"estimatedHours": 0,
-				"isFreeEstimate": true
-			}
-		},
-		"facets": {},
-		"questions": [],
-		"jobMaterialQuestions": [],
-		"subServices": [],
-		"settings": {
-			"consumerNotesPrompt": "please describe in your own words what kind of job you need help with.",
-			"mediaUploadPrompt": "please upload at least one type of media such as a picture, video, or audio recording so we can understand the job in question.",
-			"isConsumerNotesRequired": true,
-			"isMediaPhotoRequired": false,
-			"isMediaVideoRequired": false,
-			"isMediaVoicenoteRequired": false,
-			"minimumMediaTypesRequired": 1
-		}
-	}]
+  "services": [
+    {
+      "id": "custom-plumbing-job-hourly",
+      "category": [
+        {
+          "id": {
+            "$oid": "63fbce632e74b721f7424b87"
+          },
+          "categoryName": "Misc",
+          "description": "Misc. plumbing work",
+          "ancestor": [
+            {
+              "name": "Services",
+              "path": "/services"
+            },
+            {
+              "name": "Plumbing",
+              "path": "/services/plumbing"
+            }
+          ],
+          "slug": "plumbing-misc",
+          "path": "services/plumbing/plumbing-misc"
+        }
+      ],
+      "description": "Custom Hourly Plumbing Job with Free Estimate.",
+      "quantity": {
+        "prompt": null,
+        "minimum": 1,
+        "maximum": 1
+      },
+      "pricing": {
+        "hourly": {
+          "regularHours": {
+            "firstHourValue": 100.00,
+            "additionalHoursValue": 45.00,
+            "additionalHoursType": "dollar"
+          },
+          "afterHours": {
+            "firstHourValue": 200.00,
+            "additionalHoursValue": 50,
+            "additionalHoursType": "percentage"
+          },
+          "estimatedHours": 0,
+          "isFreeEstimate": true
+        }
+      },
+      "facets": {},
+      "questions": [],
+      "jobMaterialQuestions": [],
+      "subServices": [],
+      "settings": {
+        "consumerNotesPrompt": "please describe in your own words what kind of job you need help with.",
+        "mediaUploadPrompt": "please upload at least one type of media such as a picture, video, or audio recording so we can understand the job in question.",
+        "isConsumerNotesRequired": true,
+        "isMediaPhotoRequired": false,
+        "isMediaVideoRequired": false,
+        "isMediaVoicenoteRequired": false,
+        "minimumMediaTypesRequired": 1
+      }
+    }
+  ]
 }
