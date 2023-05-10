@@ -1,4 +1,41 @@
 {
+  "carts": [
+    {
+      "id": "ffhfjksafhnvxz1231fdsasd3",
+      "attributes": {
+        "archivedServiceObjects": [
+          {
+            "id": "ffdhfj35gg21zxfz1231fdsasd3",
+            "also": {}
+          }
+        ],
+        "cartServices": [
+          {
+            "id": "f2fgjasdsggawgzxfz1231fdsasd3",
+            "serviceId": "f2f45u7f67sagawgzxfz1231fdsasd3",
+            "answers": [],
+            "costDetail": {
+              "hourlyRegularHoursPricing": {
+                "regularHours": {
+                  "firstHourValue": 4.0,
+                  "additionalHoursValue": 23.8,
+                  "additionalHoursType": "dollar"
+                }
+              },
+              "regularEstimatedHours": 4.0,
+              "extendedCost": 23.8
+            }
+          }
+        ],
+        "pricingSummary": {},
+        "preferredTiming": {}
+      },
+      "relationships": {
+        "belongsToConsumer": []
+      },
+      "properties": {}
+    }
+  ],
   "services": [
     {
       "id": "custom-plumbing-job-hourly",
